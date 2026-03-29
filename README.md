@@ -13,6 +13,13 @@
 
 ---
 
+## 🎥 Demo & Presentation
+
+| 🎬 Demo Video | 📊 Presentation |
+|--------------|----------------|
+| [▶ Watch Demo](https://drive.google.com/file/d/1n4vBPCUzy0_rW94o4BN1DANM8lrIyN8J/view?usp=drive_link) | [📂 View PPT](https://drive.google.com/file/d/1dJ7Jjhvrws9iRyBTfhR5-KXAnkCZTEfs/view?usp=drive_link) |
+
+---
 ## 🚨 Problem Statement
 Endometriosis affects ~10% of women globally and often takes **7–10 years** to diagnose due to fragmented analysis of imaging and symptoms.
 
@@ -62,21 +69,28 @@ Prediction Output (with Confidence)
 
 ## ⚙️ Tech Stack
 
+
+---
+
+## ⚙️ Tech Stack
+
 ### Frontend:
-HTML, CSS, JavaScript  
+HTML, CSS  
 
 ### Backend:
-Java, Spring Boot  
+Python (Flask)  
 
 ### AI/ML:
-CNN (Image Processing)  
-Text-based keyword analysis (Simulated NLP)  
-Multimodal Fusion  
+OpenCV (Image Processing)  
+NumPy  
+Rule-based Text Analysis  
+Multimodal Fusion Logic  
 
 ---
 
 ## 🔐 Input Validation
 To ensure reliable predictions, the system:
+
 
 ```
 ✔ Rejects QR codes, selfies, random images  
@@ -89,20 +103,12 @@ To ensure reliable predictions, the system:
 ## 🚀 How to Run
 
 ### Backend
-```bash
-cd backend
-mvn spring-boot:run
-```
+
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
-### Frontend
-```
-Open frontend/index.html in browser
-```
 
----
 
 ## 📡 API Endpoint
 
@@ -146,7 +152,7 @@ Open frontend/index.html in browser
 
 ## 👩‍💻 Team
 ```
-GEDIPUDI DARSHANI - Frontend
+GEDIPUDI DARSHANI - Frontend & AI
 MAHASRI P - Backend
 OVIYA N - Security
 ```
