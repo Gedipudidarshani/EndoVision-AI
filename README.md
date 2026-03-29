@@ -10,7 +10,7 @@
 🧾 Clinical Symptoms (Text Input)  
 
 #### It addresses delayed diagnosis by integrating both data sources into a single AI-powered system.
-
+#### This system ensures reliable AI predictions by validating medical inputs before analysis.
 ---
 
 ## 🎥 Demo & Presentation
