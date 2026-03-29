@@ -93,7 +93,10 @@ To ensure reliable predictions, the system:
 cd backend
 mvn spring-boot:run
 ```
-
+```bash
+pip install -r requirements.txt
+python app.py
+```
 ### Frontend
 ```
 Open frontend/index.html in browser
